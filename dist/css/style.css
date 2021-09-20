@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.img-jumbo {
+    width: 100%;
+    height: auto;
+    margin: 12px auto;
+}
+
+.img-jumbo img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.timeline {
+    margin: 0 15px 15px 0;
+    position: relative;
+}
+
+.timeline::after {
+    content: "";
+    width: 2px;
+    height: 90px;
+    background-color: #2a579a83;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translate(0, 30%);
+}
+
+.feature-icon img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.img-user {
+    width: 70px;
+}
+
+.img-1 {
+    width: 100%;
+}
+
+.bg-primary-50 {
+    background: #2a579a81;
+}
+
+
+.img-thumb:nth-child(1) {
+    width: 40%;
+}
+
+.img-thumb:nth-child(2) {
+    width: 55%;
+}
+
+.img-thumb:nth-child(3) {
+    width: 55%;
+}
+
+.img-thumb:nth-child(4) {
+    width: 40%;
+}
+
+.img-thumb img {
+    width: 100%;
+}
+
+.input-search {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-search i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.link-active {
+    border-bottom: 3px solid #2a579a;
+}
+
+.img-faq {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    margin-right: 0;
+}
+
+.nav-faq {
+    width: 100%;
+    text-align: right;
+    margin: 20px auto;
+}
+
+.nav-faq ul li {
+    display: inline;
+    font-size: 16px;
+}
+
+.nav-faq ul li a {
+    padding: 8px 10px;
+    border-radius: 30px;
+    background: #2a579a;
+    color: #fff;
+    margin: auto 12px;
+}
+
+.nav-faq ul li:nth-child(1) a {
+    opacity: 0.5;
+}
+
+.input-container {
+    width: 100%;
+    height: auto;
+    margin: 12px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-container input {
+    margin: 0;
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .img-jumbo img {
+        max-width: 710px;
+        margin-right: 0;
+    }
+
+    .timeline-container {
+        width: 80%;
+        margin-left: 3rem;
+    }
+
+    .our-path {
+        margin-left: 5rem;
+    }
+
+    .input-search {
+        width: 40%;
+    }
+
+}
